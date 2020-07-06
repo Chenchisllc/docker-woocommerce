@@ -1,0 +1,89 @@
+/* WooTax admin CSS */
+
+.toplevel .form-error {
+    border-color: #be0636 !important;
+}
+
+.wootax-reports-page {
+    padding-left: 10px;
+}
+
+.button.add-order-tax, a.delete_refund {
+    display: none !important;
+}
+
+.help_tip {
+    vertical-align: middle;
+}
+
+/**
+ * Hide Tax Status/Tax Class fields
+ */
+.form-field._tax_status_field, .form-field._tax_class_field {
+    display: none !important;
+}
+
+#woocommerce-fields-bulk > label:nth-of-type(2), #woocommerce-fields-bulk > label:nth-of-type(3) {
+    display: none !important;
+}
+
+.woocommerce_variable_attributes .data > div:nth-of-type(5) p:nth-of-type(2), p[class*="variable_tax_class"] {
+    display: none !important;
+}
+
+
+/**
+ * Shipping origin select
+ */
+#shipping_origin_field .select2-container, .form-field.wootax_tic .select2-container {
+    width: 50% !important;
+}
+
+@media only screen and (max-width: 1280px) {
+    #shipping_origin_field .select2-container, .form-field.wootax_tic .select2-container {
+        width: 80% !important;
+    }
+}
+
+/**
+ * Meta boxes
+ */
+.postbox#sales_tax_meta .woocommerce-help-tip {
+    margin: 0;
+}
+
+.postbox#sales_tax_meta .inside {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.postbox#sales_tax_meta .inside div {
+    margin: 1.33em 0;
+}
+
+.postbox#sales_tax_meta h3 {
+    font-size: 13px;
+    margin: 0 0 5px 0;
+}
+
+/**
+ * TIC select
+ */
+.sst-tic-select-wrap {
+    padding: 5px 0;
+}
+
+.wp-core-ui .button.sst-select-tic {
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.sst-selected-tic {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sst-tic-search {
+    width: 100%;
+    height: 32px;
+}

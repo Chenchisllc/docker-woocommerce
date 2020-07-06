@@ -1,0 +1,10 @@
+*** HubSpot Integration Changelog ***
+
+2020-01-24 - version 1.0.0
+* Inital release
+2020-05-07 - version 1.0.1
+* Contact sync fixed
+2020-05-15 - version 1.0.2
+* Multisite support
+2020-05-20 - version 1.0.3
+* Shipment tracking and re-sync deals 
